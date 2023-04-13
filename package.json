@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "gautam-lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "gautam-lotide library",
   "main": "index.js",
   "directories": {
     "test": "test"
