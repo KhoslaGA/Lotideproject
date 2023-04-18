@@ -5,7 +5,7 @@ const assertObjectEqual = function (object1, object2) {
     if (eqObjects(object1, object2)) {
         console.log(`✅  Assertion passed: ${inspect(object1)} === ${inspect(object2)}`);
     } else {
-        console.log(`🛑  Assertion failed: ${inspect(object1)} !== ${inspect(object2)}`);
+        console.log(`🛑  Assertion failed: ${inspect(object1)} !    == ${inspect(object2)}`);
     }
 };
 

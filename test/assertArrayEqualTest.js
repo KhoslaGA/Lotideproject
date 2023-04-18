@@ -1,6 +1,6 @@
-const assertArraysEqual = require("../assertArraysEqual");
+const assertArrayEqual = require("../assertArrayEqual");
 
-assertArraysEqual(["1", "2", "3"], ["1", "2", 3]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]);
-assertArraysEqual(["a", "b", "c"], ["a", "b", "c"]);
-assertArraysEqual([], []);
+assertArrayEqual(["1", "2", "3"], ["1", "2", 3]);
+assertArrayEqual(["1", "2", "3"], ["1", "2", "3"]);
+assertArrayEqual(["a", "b", "c"], ["a", "b", "c"]);
+assertArrayEqual([], []);

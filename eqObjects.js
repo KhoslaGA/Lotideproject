@@ -11,8 +11,6 @@ const eqObjects = function (object1, object2) {
             return false;
         } else if ((typeof (object1[key]) === typeof ({}) || typeof (object1[key]) === typeof ({})) && eqObjects(object1[key], object2[key]) === false) {
             return false;
-        } else if (typeof (object1[key]) === typeof ({}) || typeof (object1[key]) === typeof ({})) {
-            eqObjects(object1[key], object2[key]);
         }
     }
     return true;
@@ -30,4 +28,4 @@ const eqObjects = function (object1, object2) {
 //     .forEach(c => node[c.id] = makeTree(categories, c.id))
 //   return node
 // }
-module.exports = eqObjects;
+module.exports = eqObjects; 
