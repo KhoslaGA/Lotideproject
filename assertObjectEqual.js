@@ -8,5 +8,5 @@ const assertObjectEqual = function (object1, object2) {
         console.log(`🛑  Assertion failed: ${inspect(object1)} !    == ${inspect(object2)}`);
     }
 };
-
+// Random comment
 module.exports = assertObjectEqual;
