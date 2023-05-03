@@ -22,6 +22,7 @@ const _ = require('gautam-lotide');
 
 The following functions are currently implemented:
 
+
 * `assertArraysEqual`: Asserts whether two arrays are equal 
 
 * `assertEqual`: Asserts whether two primitive values are equal.
