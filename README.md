@@ -22,11 +22,15 @@ const _ = require('gautam-lotide');
 
 The following functions are currently implemented:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> updates
 * `assertArraysEqual`: Asserts whether two arrays are equal 
 
 * `assertEqual`: Asserts whether two primitive values are equal.
 
-* `asserObjectEqual`: Asserts whether two objects are equal.
+* `asserObjectsEqual`: Asserts whether two objects are equal.
 
 * `countLetters`: Returns an object where each unique character encountered in a given string is a key and the value for that property should be the number of occurrences for that character.
 

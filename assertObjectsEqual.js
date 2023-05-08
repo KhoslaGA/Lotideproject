@@ -1,6 +1,6 @@
 const eqObjects = require("./eqObjects");
 
-const assertObjectEqual = function (object1, object2) {
+const assertObjectsEqual = function (object1, object2) {
     const inspect = require('util').inspect;
     if (eqObjects(object1, object2)) {
         console.log(`✅  Assertion passed: ${inspect(object1)} === ${inspect(object2)}`);
@@ -9,4 +9,4 @@ const assertObjectEqual = function (object1, object2) {
     }
 };
 // Random comment
-module.exports = assertObjectEqual;
+module.exports = assertObjectsEqual;
