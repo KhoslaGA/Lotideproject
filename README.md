@@ -6,10 +6,12 @@ Purpose
 
 This project was created and published by me as part of my learnings at Lighthouse Labs.
 
-##Instructions
+## Instructions
 Install npm install gautam-lotide
 
-Require it const _ = require('gautam-lotide');
+## Require it
+ 
+ const _ = require('gautam-lotide');
 
 ## Documentation
 The following functions are currently implemented:
